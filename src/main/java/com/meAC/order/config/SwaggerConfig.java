@@ -10,6 +10,6 @@ public class SwaggerConfig {
 
     @Bean
     public OpenAPI productServiceApi() {
-        return new OpenAPI().info(new Info().title("Product Service API").description("API documentation for product microservice"));
+        return new OpenAPI().info(new Info().title("Order Service API").description("API documentation for order microservice"));
     }
 }
